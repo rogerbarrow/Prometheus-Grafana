@@ -30,3 +30,6 @@ Step 3. Run Helm repo update
 
  ![CAFC484C-CEF0-4105-A819-8BB6DA449BA4_1_105_c](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/73b8b3b4-c3e2-4287-a496-82bf34126ed6)
 
+Step 4. run kubectl get pods
+![C11F2DEE-F26F-42DB-B70A-1BFE69CAB6EA_4_5005_c](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/957f639c-f859-4041-9ea6-104c281529ef)
+
