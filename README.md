@@ -55,3 +55,11 @@ Step 8. Get admin password and Kubetcl sercet by running command on line 1 then 
 ![9BFB96B6-A557-4E23-8742-DF4F0A59764C](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/58276f23-2a8a-40f4-ab73-962739b28bea)
 
 
+
+![7CDE1AF2-EED8-4CA1-8D9F-4928D90276DA_1_105_c](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/25a90246-edcc-4301-a4f4-ec93331ce4ac)
+
+
+
+![3B63F747-8E0E-465B-9BE1-4DBD48666A84](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/8b8edfd1-c51d-4a0a-a643-375896ae7619)
+
+
