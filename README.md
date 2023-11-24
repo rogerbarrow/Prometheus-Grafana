@@ -33,3 +33,8 @@ Step 3. Run Helm repo update
 Step 4. run kubectl get pods
 ![C11F2DEE-F26F-42DB-B70A-1BFE69CAB6EA_4_5005_c](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/957f639c-f859-4041-9ea6-104c281529ef)
 
+Step 5. Is expose Prometheus Server
+    Commad  Kubectl expose service prometheus-server --type=NodePort --target-port=9090 --name=promethsus-server-ext
+    ![026B37D9-83DB-4DDF-AABC-948A09F588CD_4_5005_c](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/1d4f23d8-4c39-43cf-ac8b-4b89b04b8846)
+
+
