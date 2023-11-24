@@ -40,5 +40,14 @@ Step 5. Is expose Prometheus Server
 Step 6: is to get the IP address of the Kube Node with commmand minikub ip. Enter Ip address and port number in web browser
 ![FDFC45E2-3DFF-457A-BBCA-F5C92C5DB5E1](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/5ec11e0b-b4e7-45d4-b0c6-0512f929213a)
 
+Step 7. istall Grafana      Command   Helm repo add grafana https://grafana.githube.io/helm-chart
+
+![BBD26BD7-F1CD-41B9-A1DD-8F3EBC915CCC](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/8568e61f-0f06-433e-a125-d180685dcdac)
+
+
+Step 8. Get admin password and Kubetcl sercet by running command on line 1 then expose grafana node
+
+![363F6BAC-6D75-4807-AE53-86B5FBA2B218_4_5005_c](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/18f75d0f-6422-4b58-ae69-01b2fc39344d)
+
 
 
