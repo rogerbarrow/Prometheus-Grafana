@@ -23,4 +23,10 @@ Run Kubectl get pods -A to verify pod is running
 ![3E4821FE-F350-491C-9217-4D5E01DE2646_4_5005_c](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/8e20ddc8-457e-40d5-beb1-4e56c11138db)
 
 Step 2. Install Helm  with command Helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
- -then Run Helm repo update
+
+![AAC0C0EE-A6FF-4433-90FE-A2C7639CF0AD_4_5005_c](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/e1e771de-75ff-407d-927d-73579d820483)
+
+Step 3. Run Helm repo update
+
+ ![CAFC484C-CEF0-4105-A819-8BB6DA449BA4_1_105_c](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/73b8b3b4-c3e2-4287-a496-82bf34126ed6)
+
