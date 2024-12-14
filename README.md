@@ -4,7 +4,7 @@
 
 In today’s rapidly advancing world of cloud-native technologies, Kubernetes has become the go-to platform for orchestrating containerized applications. To maintain the reliability and performance of these applications and their supporting infrastructure, robust monitoring is essential. Prometheus and Grafana are two widely-used tools that make this possible. In this guide, we’ll demonstrate how to set up Prometheus and Grafana on a Kubernetes cluster using Helm, a powerful package manager for Kubernetes applications.
 
- Why Choose Prometheus and Grafana?
+ # Why Choose Prometheus and Grafana?
 
 Prometheus is a powerful open-source toolkit for monitoring and alerting, designed to collect and store time-series data from your applications and infrastructure. Known for its reliability, scalability, and simplicity, Prometheus is a go-to solution for modern monitoring needs. Complementing this, Grafana is a widely-used open-source platform for observability and data visualization. It allows you to create dynamic, customizable dashboards to visualize metrics collected by Prometheus and other data sources, making it easier to monitor and analyze system performance.
 
@@ -25,11 +25,14 @@ Detailed logs and historical metrics aid in root cause analysis.
 Example: If an application crash coincides with memory usage spiking from 2GB to 8GB, logs can pinpoint which process caused the issue.
 By focusing on these, monitoring ensures systems remain reliable, secure, and performant while providing actionable insights to maintain and improve operations.
 
-Architecture
+# Architecture
+
 ![image](https://github.com/user-attachments/assets/ab5f083e-6253-40fa-aeef-f7853b510615)
 
-What is Grafana?
+# What is Grafana?
+
 ![image](https://github.com/user-attachments/assets/e2e25e62-f3b5-4cd1-a7b5-448976e4d36a)
+
 
 Grafana is a popular open-source platform for monitoring, visualization, and observability. It enables users to query, analyze, and visualize data from a wide range of sources through highly customizable, interactive dashboards. Grafana is often used in combination with monitoring tools like Prometheus, InfluxDB, or Elasticsearch to provide actionable insights into system performance, application metrics, and business data.
 
@@ -64,21 +67,16 @@ Grafana stands out for its flexibility, ease of use, and ability to unify data f
 
 
 
-Pre-Requisite
-Kubernetes Cluster (can be minikube)
-Helm
+# Pre-Requisite
+Before we dive into the setup process, make sure you have the following prerequisites:
 
-If you don't have them installed. Follow the below links:
+A Kubernetes cluster up and running to install minikube
+Helm installed on your local machine and configured to work with your Kubernetes cluster.
 
-Install Minikube
-
-Install Helm
-
-
-![image](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/5c00bd08-09ed-4f69-a1bb-6f618274c8a4)
-
-Prometheus Architecture
-![image](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/551a502d-c461-4be3-b78a-f6c036c7679f)
+# Step 1: Installing Prometheus with Helm
+Open your terminal and navigate to the directory where you want to install Prometheus.
+Run the following command to add the Prometheus Helm chart repository:
+![image](https://github.com/user-attachments/assets/fd25dd93-c1ee-4cdc-9aa7-71dd348f4e7c)
 
 Step 1. Install Minikube
 ![9CF769FE-A7EB-4E33-94E6-BD325F30B180_4_5005_c](https://github.com/rogerbarrow/Prometheus-Grafana/assets/46138186/19dfb006-a93e-478f-849d-0b5c972267fc)
