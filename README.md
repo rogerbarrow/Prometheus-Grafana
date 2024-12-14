@@ -1,5 +1,8 @@
-# Prometheus-Grafana
+# Kubernetes Monitoring Prometheus and Grafanaa
 
+![image](https://github.com/user-attachments/assets/69bcd56b-1a47-4bad-8738-f5914f9cae21)
+
+In today’s rapidly advancing world of cloud-native technologies, Kubernetes has become the go-to platform for orchestrating containerized applications. To maintain the reliability and performance of these applications and their supporting infrastructure, robust monitoring is essential. Prometheus and Grafana are two widely-used tools that make this possible. In this guide, we’ll demonstrate how to set up Prometheus and Grafana on a Kubernetes cluster using Helm, a powerful package manager for Kubernetes applications.
 Pre-Requisite
 Kubernetes Cluster (can be minikube)
 Helm
