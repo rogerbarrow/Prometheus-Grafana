@@ -25,6 +25,45 @@ Detailed logs and historical metrics aid in root cause analysis.
 Example: If an application crash coincides with memory usage spiking from 2GB to 8GB, logs can pinpoint which process caused the issue.
 By focusing on these, monitoring ensures systems remain reliable, secure, and performant while providing actionable insights to maintain and improve operations.
 
+Architecture
+![image](https://github.com/user-attachments/assets/ab5f083e-6253-40fa-aeef-f7853b510615)
+
+What is Grafana?
+![image](https://github.com/user-attachments/assets/e2e25e62-f3b5-4cd1-a7b5-448976e4d36a)
+
+Grafana is a popular open-source platform for monitoring, visualization, and observability. It enables users to query, analyze, and visualize data from a wide range of sources through highly customizable, interactive dashboards. Grafana is often used in combination with monitoring tools like Prometheus, InfluxDB, or Elasticsearch to provide actionable insights into system performance, application metrics, and business data.
+
+Key Features of Grafana:
+Data Visualization:
+Create dynamic and customizable dashboards with charts, graphs, and alerts.
+Supports various visualization types, such as heatmaps, pie charts, and time-series graphs.
+2. Multiple Data Sources:
+
+Integrates with a wide range of data sources, including Prometheus, Elasticsearch, AWS CloudWatch, InfluxDB, MySQL, and more.
+3. Alerting:
+
+Set up real-time alerts based on defined thresholds or conditions, and deliver them via email, Slack, PagerDuty, or other channels.
+4. Plugins and Extensibility:
+
+Extend functionality with plugins for new visualizations, data sources, and applications.
+
+5. User Management:
+
+Provides multi-user support with role-based access control, allowing collaboration across teams.
+6. Open Source and Community Support:
+
+As an open-source project, Grafana benefits from a large community and frequent updates.
+Use Cases:
+System Monitoring: Visualize server performance metrics like CPU usage, memory, and disk I/O.
+Application Monitoring: Track API response times, error rates, and throughput.
+Business Metrics: Monitor KPIs like website traffic, sales performance, or user behavior.
+IoT and Industrial Data: Display sensor readings and machine performance in real-time.
+Why Grafana?
+Grafana stands out for its flexibility, ease of use, and ability to unify data from disparate sources into a single cohesive view. Whether you’re managing cloud infrastructure, troubleshooting application performance, or analyzing business trends, Grafana simplifies the process of turning raw data into actionable insights.
+
+
+
+
 Pre-Requisite
 Kubernetes Cluster (can be minikube)
 Helm
